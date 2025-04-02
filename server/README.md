@@ -26,4 +26,6 @@ A real-time chat application built using React and Firebase.
    ```sh
    npm install
    ```
+   ![image](https://github.com/user-attachments/assets/4318ca47-fb97-46f7-9aa3-448910a2425e)
+
 
