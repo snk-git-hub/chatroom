@@ -1,65 +1,19 @@
 {
-<<<<<<< HEAD
-  "name": "my-chat-app",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/dom": "^10.4.0",
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.2.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "react-scripts": "^3.0.1",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.3",
-    "tailwindcss": "^4.1.1"
-=======
-  "name": "ws_chatapp",
+  "name": "web_sockets",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "dev": "tsc -b && node ./src/chat.ts"
+    "dev": "tsc -b && node ./dist/chat.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@types/express": "^5.0.1",
-    "@types/ws": "^8.18.1",
-    "express": "^5.1.0",
-    "jsonwebtoken": "^9.0.2",
-    "typescript": "^5.8.2",
+    "typescript": "^5.7.3",
     "ws": "^8.18.1"
->>>>>>> f658945 (Updated .gitignore and added tsconfig.tsbuildinfo)
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.14"
   }
 }
